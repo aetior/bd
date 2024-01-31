@@ -1,0 +1,15 @@
+{
+"iduser":5,
+  "nombre":"nopablo",
+  "apellido":"ferrer",
+  "email":"marta@gmail.com",
+  "metodopago":"paypal",
+  "dni":"432423A",
+  "direccion":"direccionjeje",
+  "contraseña":"contraseñita"
+}
+
+crear una funcion GET que me filtre por parametros localidad, destino, número de paquetes, tamaño máximo del paquete y fecha del transporte.
+crear una funcion GET para seleccionar un transportista de una lista.
+crear una funcion POST para realizar el pago.
+crear una funcion DELETE para eliminar el servicio.

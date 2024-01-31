@@ -7,8 +7,8 @@ Tecnologias Usadas: NestJs, Ts, Typeorm, Postman, Mysql
 localhost:3000/auth/register. 
   <!-- Requisitos de un usuario para registarse: -->
                      "En el Body de PostMan con el Metodo POST"
+                     Ej:
 {
-
   "nombre":"nopablo",
   "apellido":"ferrer",
   "email":"mwfgega@gmail.com",
