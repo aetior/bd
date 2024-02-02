@@ -2,7 +2,7 @@
 
 export class CreateUserDto{
     
-    nombre?: string
+    nombre: string
   
     email: string
  

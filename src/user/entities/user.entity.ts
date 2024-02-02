@@ -1,4 +1,4 @@
-import { Entity,Column,PrimaryGeneratedColumn, DeleteDateColumn } from "typeorm";
+import { Entity,Column,PrimaryGeneratedColumn, DeleteDateColumn,IsNull } from "typeorm";
 @Entity()
 export class User {
     @PrimaryGeneratedColumn()
@@ -17,7 +17,7 @@ export class User {
     direccion: string// varchar(45) NOT NULL,
     @Column()
     pass: string //varchar(45) NOT NULL,
-    @Column({default:'user'})
+    @Column({default:"user"})
     rol:string
     @DeleteDateColumn()
     deletedAt: Date;

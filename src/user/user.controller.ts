@@ -21,10 +21,10 @@ export class UserController {
     search(@Param('localizacion') localizacion: string){
         return this.userService.search(localizacion)
     }
-    @Put(':userID')
-    updateUser(@Param('userID') userID: string,@Body()newData:any){
-        return this.userService.updateUser(userID,newData)
-    }
+    // @Put(':userID')
+    // updateUser(@Param('userID') userID: string,@Body()newData:any){
+    //     return this.userService.updateUser(userID,newData)
+    // }
     @Get()
     setDriver(){
         return this.userService.setDriver()
